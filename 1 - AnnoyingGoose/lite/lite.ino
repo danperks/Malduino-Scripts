@@ -190,7 +190,7 @@ void setup(){
     delay(300);
 
     delay(defaultDelay);
-    Keyboard.print("powershell.exe -windowstyle hidden -file $env:APPDATA\\ducky\\ducky.ps1");
+    Keyboard.print("powershell.exe -file $env:APPDATA\\ducky\\ducky.ps1");
 
     delay(defaultDelay);
     delay(100);
