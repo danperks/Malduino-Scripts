@@ -9,7 +9,7 @@ This script is based around the Desktop Goose tool made by samperson.
 Check that out first here: https://samperson.itch.io/desktop-goose
 
 This script downloads a (slightly stripped) version of the program I uploaded online.
-One downloaded, it then runs the program.
+Once downloaded, it then runs the program.
 
 After a few iterations, I eventually settled on this version. Previous versions ran the download and .zip extraction line by line, requiring the Malduino to be plugged in for the entire time, until the Desktop Goose began to run. Instead, this script writes a Powershell script (.ps1) that does this for you, and then runs said script. This means the Malduino can be unplugged substantially earlier, making it much better for a quick drop off.
 
